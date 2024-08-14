@@ -41,7 +41,7 @@ const Cart = () => {
       ):(
         <div className="empty-cart">
           <p>Your cart is empty &nbsp; <span className="sad">&#9785;</span></p>
-          <img src="/src/assets/empty-cart.png" alt="" />
+          <img src="/tomato-app/src/assets/empty-cart.png" alt="empty cart" />
         </div>
       )}
       <div className="cart-bottom">
