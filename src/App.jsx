@@ -20,7 +20,7 @@ function App(){
        <Routes>
         <Route path='/tomato-app' element={<Home/>}/>
         <Route path='/cart' element={<Cart/>}/>
-        <Route path='/' element={<Placeorder/>}/>
+        <Route path='/order' element={<Placeorder/>}/>
        </Routes>
      </div>
 
