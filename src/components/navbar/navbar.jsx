@@ -11,9 +11,9 @@ function Navbar({setShowLogin}){
   const {cartItems} = useContext(StoreContext)
   return (
     <div className="navbar">
-      <Link to="/"><img src={assets.logo} alt="logo" className="logo" /></Link>
+      <Link to="/tomato-app"><img src={assets.logo} alt="logo" className="logo" /></Link>
       <ul className="navbar-menu">
-        <Link to="/" onClick={()=>{setMenu("Home")}} className={menu === "Home"?"active":"normal"}>Home</Link>
+        <Link to="/tomato-app" onClick={()=>{setMenu("Home")}} className={menu === "Home"?"active":"normal"}>Home</Link>
         <a href="#explore-menu" onClick={()=>{setMenu("Menu")}} className={menu === "Menu"?"active":"normal"}>Menu</a>
         <a href="#app-download" onClick={()=>{setMenu("Mobile-app")}} className={menu === "Mobile-app"?"active":"normal"}>Mobile-app</a>
         <a href="#footer" onClick={()=>{setMenu("Contact-us")}} className={menu === "Contact-us"?"active":"normal"}>Contact Us</a>

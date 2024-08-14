@@ -18,7 +18,7 @@ function App(){
       {/* passing modal details to navbar */}
        <Navbar setShowLogin={setShowLogin} />
        <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/tomato-app' element={<Home/>}/>
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/' element={<Placeorder/>}/>
        </Routes>
