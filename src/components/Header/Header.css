@@ -2,7 +2,8 @@
 .header{
     height: 34vw;
     margin: 30px auto;
-    background: linear-gradient(180deg,rgba(217,217,217,0.00)0%,rgba(255,255,255,0.00)43.23%,rgba(0,0,0,0.61)100%),url('/src/assets/header_img.png');
+    /*background: linear-gradient(180deg,rgba(217,217,217,0.00)0%,rgba(255,255,255,0.00)43.23%,rgba(0,0,0,0.61)100%),url('/src/assets/header_img.png');*/
+    background: url('/src/assets/header_img.png');
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
