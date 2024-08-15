@@ -1,5 +1,5 @@
 import { useContext} from "react"
-import "./Cart.css"
+import "./Cart.css";
 import { StoreContext } from "../../context/storeContext"
 // useNavigate is used to make button work line links
 import { useNavigate } from "react-router-dom"
@@ -44,7 +44,7 @@ const Cart = () => {
       ):(
         <div className="empty-cart">
           <p>Your cart is empty &nbsp; <span className="sad">&#9785;</span></p>
-          {/*<img src="/src/assets/empty-cart.png" alt="" />*/}
+          <img src="https://www.fudcoshop.com/pub/static/frontend/MageBig/martfury_layout04/en_GB/images/empty-cart.svg" alt="Empty-cart-image"/>
         </div>
       )}
       <div className="cart-bottom">
