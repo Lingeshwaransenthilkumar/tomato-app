@@ -66,7 +66,7 @@ const Cart = () => {
               <b>${totalCartAmount() === 0 ? 0 : totalCartAmount()+2}</b>
             </div>
           </div>
-          <button onClick={()=>navigate('/order')}>Proceed To Checkout</button>
+          {totalCartAmount() === 0 ? <button className="disabled" disabled>Proceed To Checkout</button> : <button onClick={()=>navigate('/order')}>Proceed To Checkout</button>}
         </div>
         <div className="cart-promo">
           <div>
