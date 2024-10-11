@@ -58,7 +58,7 @@ import profile_icon from './profile_icon.png'
 import bag_icon from './bag_icon.png'
 import logout_icon from './logout_icon.png'
 import parcel_icon from './parcel_icon.png'
-
+import favicon from './favicon.png'
 export const assets = {
     logo,
     basket_icon,
@@ -78,7 +78,8 @@ export const assets = {
     profile_icon,
     logout_icon,
     bag_icon,
-    parcel_icon
+    parcel_icon,
+    favicon
 }
 
 export const menu_list = [
@@ -346,4 +347,5 @@ export const food_list = [
         description: "Perfectly cooked noodles with a mix of fresh veggies and herbs.",
         category: "Noodles"
     }
+    
 ]
