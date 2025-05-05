@@ -17,6 +17,7 @@ function Navbar({setShowLogin}){
         <a href="#explore-menu" onClick={()=>{setMenu("Menu")}} className={menu === "Menu"?"active":"normal"}>Menu</a>
         <a href="#app-download" onClick={()=>{setMenu("Mobile-app")}} className={menu === "Mobile-app"?"active":"normal"}>Mobile-app</a>
         <a href="#footer" onClick={()=>{setMenu("Contact-us")}} className={menu === "Contact-us"?"active":"normal"}>Contact Us</a>
+        <Link to="/SuggestRecipe" onClick={()=>{setMenu("SuggestRecipe")}} className={menu === "SuggestRecipe"?"active":"normal"}>Suggest Recipe</Link>
       </ul>
       <div className="navbar-right">
         <img src={assets.search_icon} alt="search-icon" />

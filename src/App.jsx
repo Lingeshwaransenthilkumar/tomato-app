@@ -6,6 +6,7 @@ import Placeorder from "./pages/placeOrder/Placeorder"
 import Footer from "./components/footer/footer"
 import { useState } from "react"
 import LoginPopup from "./components/LoginPopup/LoginPopup"
+import SuggestRecipe from "./components/SuggestRecipe/SuggestRecipe"
 
 function App(){
   // for modal details
@@ -21,6 +22,7 @@ function App(){
         <Route path='/tomato-app' element={<Home/>}/>
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/order' element={<Placeorder/>}/>
+        <Route path='/SuggestRecipe' element={<SuggestRecipe/>}/>
        </Routes>
      </div>
 
